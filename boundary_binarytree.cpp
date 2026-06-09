@@ -10,6 +10,8 @@ struct TreeNode {
 
 class Solution {
 public:
+
+
     static bool isLeaf(TreeNode* node) {
         return node && !node->left && !node->right;
     }
